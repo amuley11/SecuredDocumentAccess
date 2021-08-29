@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+h1 {
+    font-size: 60px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-family: fantasy, Helvetica Neue;
+	color: #111188;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 330px;
+}
+
+h2 {
+    font-size: 30px;
+	font-family: Arial;
+	color: brown;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
+	font-family: Sans-Serif;
+	padding-left: 120px;
+	font-weight: bolder;
+}
+
+h4 {
+    font-size: 12px;
+	font-family: Sans-Serif;
+	padding-left: 120px;
+	font-weight: bolder;
+	color: #111188;
+}
+
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: 00ff00;
+	font-family: Arial;
+}
+
+.features {
+	width: 50%;
+	float: left;
+	padding-right: 100px;
+	margin-bottom: 30px;
+}
+
+.prerequisites {
+	width: 40%;
+	float: left;
+	padding-left: 10px;
+}
+
+.main-text {
+	font-size: 16px;
+	text-align: justify;
+}
+
+.author {
+	width: 50%;
+	float: left;
+	padding-right: 100px;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+.author img {
+	height: 100px;
+	width: 100px;
+	border-radius: 35%;
+	float: left;
+}
+
+.guidelines {
+	width: 40%;
+	float: left;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+.author-text {
+	font-size: 22px;
+	text-align: justify;
+	font-family: fantasy, Helvetica Neue;
+	float: left;
+	padding-left: 200px;
+}
+
